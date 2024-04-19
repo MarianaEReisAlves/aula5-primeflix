@@ -51,28 +51,29 @@ http://localhost:3000
 
 ## Tela inicial da aplicação
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela inicial.png" alt="Tela inicial">
+![Tela inicial](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/Tela%20inicial.png)
 
 ## Telas detalhes do filme
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela informacoes.png" alt="Tela Detalhes">
+![Tela Detalhes](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/Tela%20informacoes.png)
 
 ## Tela de filme salvo como favorito
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela salvamento.png" alt="Tela Filme salvo">
+![Tela Filme Salvo](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/Tela%20salvamento.png)
 
 ## Tela que mostra que o filme já foi salvo antes
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela já adicionado.png" alt="Tela Filme salvo">
+![Tela Filme Já Salvo](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/Tela%20j%C3%A1%20adicionado.png)
 
 ## Tela que mostra a lista do filmas favoritos
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Meus favoritos.png" alt="Tela Filme favorito">
+![Tela Filme Favorito](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/Meus%20favoritos.png)
 
 ## Tela que mostra a lista de filmes favoritos vazia 
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Meus favoritos vazio.png" alt="Tela Fime favorito vazio">
+
+![Tela Filme Favorito Vazio](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/Meus%20favoritos%20vazio.png)
 
 ## Tela de erro
 
-<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\tela erro.png" alt="Tela erro">
+![Tela Erro](https://github.com/MarianaEReisAlves/aula5-primeflix/blob/master/tela%20erro.png)
