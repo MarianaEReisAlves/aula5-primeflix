@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# PrimeFlix 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Primeflix é uma aplicação web que te permite acessar e visualizar os filmes disponíveis em cartaz no momento acessado, te traz informações sobre o que se trata o filme juntamente coma sua pontuação, te permite salvar em "Meus filmes" aqueles que mais te agradaram e excluir caso deseje.
 
-## Available Scripts
+# Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React: Biblioteca JavaScript para construção da interface de usuário.
+- React Router: Biblioteca para controle de rotas na aplicação.
+- Axios: Cliente HTTP para fazer requisições à API de filmes.
+- react-toastify: Componente para exibir notificações na aplicação.
+- HTML: Linguagem de marcação para estruturação do conteúdo da aplicação.
+- CSS: Linguagem de estilo para estilização dos componentes.
+- localStorage: Armazenamento local do navegador para salvar filmes favoritos do usuário.
 
-### `npm start`
+# Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Pegue a url do repositório e clone na sua máquina local usando o comando git clone
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone  https://github.com/seu-usuario/aula5-primeflix
 
-### `npm test`
+2. Entre no diretório correspondente do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd aula5-primeflix
 
-### `npm run build`
+3. Instale as dependências do projeto 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Adicione mais algumas dependências necessárias para o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install axios react-router-dom react-toastify
 
-### `npm run eject`
+# Iniciando o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Inicie a aplicação em um ambiente de desenvolvimento 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Acesse a aplicação pelo seu navegador através do link gerado
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+http://localhost:3000
 
-## Learn More
+# Funcionalidades 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Explorar filmes em exibição 
+- Ver detalhes sobre os filmes: sua sinopse e avaliação
+- Adicionar, excluir e visualizar a lista de meus filmes favoritos 
+- Ver os trailers 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Prints da aplicação em execução
 
-### Code Splitting
+## Tela inicial da aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela inicial.png" alt="Tela inicial">
 
-### Analyzing the Bundle Size
+## Telas detalhes do filme
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela informacoes.png" alt="Tela Detalhes">
 
-### Making a Progressive Web App
+## Tela de filme salvo como favorito
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela salvamento.png" alt="Tela Filme salvo">
 
-### Advanced Configuration
+## Tela que mostra que o filme já foi salvo antes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Tela já adicionado.png" alt="Tela Filme salvo">
 
-### Deployment
+## Tela que mostra a lista do filmas favoritos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Meus favoritos.png" alt="Tela Filme favorito">
 
-### `npm run build` fails to minify
+## Tela que mostra a lista de filmes favoritos vazia 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\Meus favoritos vazio.png" alt="Tela Fime favorito vazio">
+
+## Tela de erro
+
+<img src="C:\Users\maria\OneDrive\Pictures\Screenshots\tela erro.png" alt="Tela erro">
